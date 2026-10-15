@@ -1,0 +1,19 @@
+# Virtual environment
+.venv/
+venv/
+
+# Python bytecode
+__pycache__/
+*.pyc
+
+# Crawler response cache (regenerable from the MusicBrainz API)
+data/cache/
+
+# Local credentials / env overrides (PGPASSWORD etc.)
+.env
+
+# Local Claude Code / editor settings
+.claude/settings.local.json
+
+# Frontend build output
+frontend/dist/

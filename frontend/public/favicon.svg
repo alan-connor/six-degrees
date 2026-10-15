@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#334155"/>
+      <stop offset="1" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="iri" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset="0.5" stop-color="#a78bfa"/>
+      <stop offset="1" stop-color="#f472b6"/>
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="url(#bg)"/>
+  <!-- six nodes, five hops: a degrees-of-separation chain -->
+  <polyline points="22,92 40,52 62,78 82,38 100,66 108,28" fill="none"
+            stroke="url(#iri)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <g fill="#0f172a" stroke="url(#iri)" stroke-width="4">
+    <circle cx="40" cy="52" r="7"/>
+    <circle cx="62" cy="78" r="7"/>
+    <circle cx="82" cy="38" r="7"/>
+    <circle cx="100" cy="66" r="7"/>
+  </g>
+  <circle cx="22" cy="92" r="10" fill="url(#iri)"/>
+  <circle cx="108" cy="28" r="10" fill="url(#iri)"/>
+</svg>

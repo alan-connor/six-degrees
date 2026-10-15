@@ -1,0 +1,43 @@
+{
+  // Ctrl+Shift+B (or Ctrl+Shift+P -> "Run Task") -> "Start all"
+  // launches Postgres, the FastAPI backend, and the Vite frontend.
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "db: start postgres",
+      "type": "shell",
+      "command": "docker start sixdb",
+      "problemMatcher": [],
+      "presentation": { "reveal": "silent", "panel": "shared" }
+    },
+    {
+      "label": "backend: uvicorn",
+      "type": "shell",
+      "command": "${workspaceFolder}/.venv/Scripts/python.exe",
+      "args": ["-m", "uvicorn", "api:app", "--reload", "--host", "127.0.0.1", "--port", "8000"],
+      "options": { "cwd": "${workspaceFolder}/backend" },
+      // start Postgres first -- the backend builds its graph from the DB at startup
+      "dependsOn": ["db: start postgres"],
+      "dependsOrder": "sequence",
+      "isBackground": true,
+      "problemMatcher": [],
+      "presentation": { "group": "dev", "panel": "dedicated", "reveal": "always" }
+    },
+    {
+      "label": "frontend: vite",
+      "type": "shell",
+      "command": "npm run dev",
+      "options": { "cwd": "${workspaceFolder}/frontend" },
+      "isBackground": true,
+      "problemMatcher": [],
+      "presentation": { "group": "dev", "panel": "dedicated", "reveal": "always" }
+    },
+    {
+      "label": "Start all",
+      "dependsOn": ["backend: uvicorn", "frontend: vite"],
+      "dependsOrder": "parallel",
+      "problemMatcher": [],
+      "group": { "kind": "build", "isDefault": true }
+    }
+  ]
+}

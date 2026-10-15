@@ -1,0 +1,171 @@
+musician,band,instrument,year_from,year_to
+Eric Clapton,The Yardbirds,guitar,1963,1965
+Jeff Beck,The Yardbirds,guitar,1965,1966
+Jimmy Page,The Yardbirds,guitar,1966,1968
+Eric Clapton,John Mayall's Bluesbreakers,guitar,1965,1966
+Mick Taylor,John Mayall's Bluesbreakers,guitar,1967,1969
+Peter Green,John Mayall's Bluesbreakers,guitar,1966,1967
+John McVie,John Mayall's Bluesbreakers,bass,1963,1967
+Mick Fleetwood,John Mayall's Bluesbreakers,drums,1967,1967
+Eric Clapton,Cream,guitar,1966,1968
+Jack Bruce,Cream,bass,1966,1968
+Ginger Baker,Cream,drums,1966,1968
+Eric Clapton,Blind Faith,guitar,1969,1969
+Ginger Baker,Blind Faith,drums,1969,1969
+Steve Winwood,Blind Faith,keyboards/vocals,1969,1969
+Ric Grech,Blind Faith,bass,1969,1969
+Steve Winwood,Traffic,keyboards/vocals,1967,1974
+Jimmy Page,Led Zeppelin,guitar,1968,1980
+Robert Plant,Led Zeppelin,vocals,1968,1980
+John Paul Jones,Led Zeppelin,bass/keyboards,1968,1980
+John Bonham,Led Zeppelin,drums,1968,1980
+Jeff Beck,Jeff Beck Group,guitar,1967,1969
+Rod Stewart,Jeff Beck Group,vocals,1967,1969
+Ronnie Wood,Jeff Beck Group,bass,1967,1969
+Rod Stewart,Faces,vocals,1969,1975
+Ronnie Wood,Faces,guitar,1969,1975
+Mick Jagger,The Rolling Stones,vocals,1962,
+Keith Richards,The Rolling Stones,guitar,1962,
+Charlie Watts,The Rolling Stones,drums,1963,2021
+Bill Wyman,The Rolling Stones,bass,1962,1993
+Brian Jones,The Rolling Stones,guitar,1962,1969
+Mick Taylor,The Rolling Stones,guitar,1969,1974
+Ronnie Wood,The Rolling Stones,guitar,1975,
+Peter Green,Fleetwood Mac,guitar,1967,1970
+Mick Fleetwood,Fleetwood Mac,drums,1967,
+John McVie,Fleetwood Mac,bass,1967,
+Lindsey Buckingham,Fleetwood Mac,guitar/vocals,1975,
+Stevie Nicks,Fleetwood Mac,vocals,1975,
+Christine McVie,Fleetwood Mac,keyboards/vocals,1970,
+John Lennon,The Beatles,guitar/vocals,1960,1970
+Paul McCartney,The Beatles,bass/vocals,1960,1970
+George Harrison,The Beatles,guitar,1960,1970
+Ringo Starr,The Beatles,drums,1962,1970
+George Harrison,Traveling Wilburys,guitar/vocals,1988,1990
+Bob Dylan,Traveling Wilburys,guitar/vocals,1988,1990
+Tom Petty,Traveling Wilburys,guitar/vocals,1988,1990
+Jeff Lynne,Traveling Wilburys,guitar/vocals,1988,1990
+Roy Orbison,Traveling Wilburys,guitar/vocals,1988,1988
+Jeff Lynne,Electric Light Orchestra,guitar/vocals,1970,1986
+John Paul Jones,Them Crooked Vultures,bass/keyboards,2009,
+Dave Grohl,Them Crooked Vultures,drums,2009,
+Josh Homme,Them Crooked Vultures,guitar/vocals,2009,
+Kurt Cobain,Nirvana,guitar/vocals,1987,1994
+Krist Novoselic,Nirvana,bass,1987,1994
+Dave Grohl,Nirvana,drums,1990,1994
+Dave Grohl,Foo Fighters,guitar/vocals,1994,
+Josh Homme,Queens of the Stone Age,guitar/vocals,1996,
+Chris Cornell,Soundgarden,vocals/guitar,1984,
+Kim Thayil,Soundgarden,guitar,1984,
+Matt Cameron,Soundgarden,drums,1986,
+Chris Cornell,Temple of the Dog,vocals,1990,1991
+Stone Gossard,Temple of the Dog,guitar,1990,1991
+Jeff Ament,Temple of the Dog,bass,1990,1991
+Mike McCready,Temple of the Dog,guitar,1990,1991
+Matt Cameron,Temple of the Dog,drums,1990,1991
+Eddie Vedder,Temple of the Dog,vocals,1990,1991
+Eddie Vedder,Pearl Jam,vocals,1990,
+Stone Gossard,Pearl Jam,guitar,1990,
+Jeff Ament,Pearl Jam,bass,1990,
+Mike McCready,Pearl Jam,guitar,1990,
+Matt Cameron,Pearl Jam,drums,1998,
+Chris Cornell,Audioslave,vocals,2001,2007
+Tom Morello,Audioslave,guitar,2001,2007
+Tim Commerford,Audioslave,bass,2001,2007
+Brad Wilk,Audioslave,drums,2001,2007
+Zack de la Rocha,Rage Against the Machine,vocals,1991,
+Tom Morello,Rage Against the Machine,guitar,1991,
+Tim Commerford,Rage Against the Machine,bass,1991,
+Brad Wilk,Rage Against the Machine,drums,1991,
+Layne Staley,Mad Season,vocals,1994,1996
+Mike McCready,Mad Season,guitar,1994,1996
+Barrett Martin,Mad Season,drums,1994,1996
+John Baker Saunders,Mad Season,bass,1994,1996
+Layne Staley,Alice in Chains,vocals,1987,2002
+Jerry Cantrell,Alice in Chains,guitar/vocals,1987,
+Sean Kinney,Alice in Chains,drums,1987,
+Mike Starr,Alice in Chains,bass,1987,1993
+Pete Townshend,The Who,guitar,1964,
+Roger Daltrey,The Who,vocals,1964,
+John Entwistle,The Who,bass,1964,2002
+Keith Moon,The Who,drums,1964,1978
+Stephen Stills,Buffalo Springfield,guitar/vocals,1966,1968
+Neil Young,Buffalo Springfield,guitar/vocals,1966,1968
+Richie Furay,Buffalo Springfield,guitar/vocals,1966,1968
+Jim Messina,Buffalo Springfield,bass,1967,1968
+David Crosby,"Crosby, Stills, Nash & Young",guitar/vocals,1968,
+Stephen Stills,"Crosby, Stills, Nash & Young",guitar/vocals,1968,
+Graham Nash,"Crosby, Stills, Nash & Young",vocals/guitar,1968,
+Neil Young,"Crosby, Stills, Nash & Young",guitar/vocals,1969,
+David Crosby,The Byrds,guitar/vocals,1964,1967
+Roger McGuinn,The Byrds,guitar/vocals,1964,1973
+Gram Parsons,The Byrds,guitar/vocals,1968,1968
+Chris Hillman,The Byrds,bass,1964,1968
+Graham Nash,The Hollies,guitar/vocals,1962,1968
+Neil Young,Crazy Horse,guitar/vocals,1969,
+Ritchie Blackmore,Deep Purple,guitar,1968,
+Ian Gillan,Deep Purple,vocals,1969,
+Roger Glover,Deep Purple,bass,1969,
+Jon Lord,Deep Purple,keyboards,1968,
+Ian Paice,Deep Purple,drums,1968,
+David Coverdale,Deep Purple,vocals,1973,1976
+Glenn Hughes,Deep Purple,bass/vocals,1973,1976
+Ritchie Blackmore,Rainbow,guitar,1975,
+Ronnie James Dio,Rainbow,vocals,1975,1979
+Cozy Powell,Rainbow,drums,1975,1980
+Ozzy Osbourne,Black Sabbath,vocals,1968,
+Tony Iommi,Black Sabbath,guitar,1968,
+Geezer Butler,Black Sabbath,bass,1968,
+Bill Ward,Black Sabbath,drums,1968,
+Ronnie James Dio,Black Sabbath,vocals,1979,
+Ian Gillan,Black Sabbath,vocals,1983,1984
+David Coverdale,Whitesnake,vocals,1978,
+Cozy Powell,Whitesnake,drums,1993,1994
+Robert Fripp,King Crimson,guitar,1968,
+Greg Lake,King Crimson,vocals/bass,1968,1970
+Ian McDonald,King Crimson,keyboards/sax,1968,1969
+John Wetton,King Crimson,bass/vocals,1972,1974
+Bill Bruford,King Crimson,drums,1972,
+Adrian Belew,King Crimson,guitar/vocals,1981,
+Keith Emerson,"Emerson, Lake & Palmer",keyboards,1970,
+Greg Lake,"Emerson, Lake & Palmer",vocals/bass,1970,
+Carl Palmer,"Emerson, Lake & Palmer",drums,1970,
+Jon Anderson,Yes,vocals,1968,
+Chris Squire,Yes,bass,1968,2015
+Steve Howe,Yes,guitar,1970,
+Rick Wakeman,Yes,keyboards,1971,
+Bill Bruford,Yes,drums,1968,1972
+Geoff Downes,Yes,keyboards,1980,
+Steve Howe,Asia,guitar,1981,
+John Wetton,Asia,vocals/bass,1981,
+Carl Palmer,Asia,drums,1981,
+Geoff Downes,Asia,keyboards,1981,
+Ian McDonald,Foreigner,guitar/keyboards,1976,1980
+Mick Jones,Foreigner,guitar,1976,
+Lou Gramm,Foreigner,vocals,1976,
+Peter Gabriel,Genesis,vocals,1967,1975
+Phil Collins,Genesis,drums/vocals,1970,
+Mike Rutherford,Genesis,guitar/bass,1967,
+Tony Banks,Genesis,keyboards,1967,
+Steve Hackett,Genesis,guitar,1971,1977
+John Lennon,The Dirty Mac,guitar/vocals,1968,1968
+Eric Clapton,The Dirty Mac,guitar,1968,1968
+Keith Richards,The Dirty Mac,bass,1968,1968
+Mitch Mitchell,The Dirty Mac,drums,1968,1968
+Kenney Jones,Faces,drums,1969,1975
+Kenney Jones,The Who,drums,1978,1988
+Mark Lanegan,Screaming Trees,vocals,1985,2000
+Barrett Martin,Screaming Trees,drums,1991,2000
+Mark Lanegan,Queens of the Stone Age,vocals,2004,2005
+Neil Young,Mirror Ball,guitar/vocals,1995,1995
+Jeff Ament,Mirror Ball,bass,1995,1995
+Stone Gossard,Mirror Ball,guitar,1995,1995
+Mike McCready,Mirror Ball,guitar,1995,1995
+Jimmy Page,XYZ,guitar,1981,1981
+Chris Squire,XYZ,bass,1981,1981
+Alan White,XYZ,drums,1981,1981
+Keith Emerson,"Emerson, Lake & Powell",keyboards,1985,1986
+Greg Lake,"Emerson, Lake & Powell",bass/vocals,1985,1986
+Cozy Powell,"Emerson, Lake & Powell",drums,1985,1986
+Steve Howe,GTR,guitar,1986,1987
+Steve Hackett,GTR,guitar,1986,1986

@@ -1,0 +1,60 @@
+# Phase 1 expansion seeds: new wave, 80s, 90s, and nu-metal.
+# One band name per line; blank lines and #-comments ignored.
+# Fed in with:  python crawl.py --add-seeds   (enqueues each at depth 0)
+# These are TRUSTED rock seeds -- crawled at depth 0, so is_rock is forced true.
+
+# --- New wave / post-punk / 80s ---
+Talking Heads
+Blondie
+The Police
+Devo
+Duran Duran
+New Order
+Joy Division
+The Cure
+Depeche Mode
+R.E.M.
+The Smiths
+U2
+The B-52's
+Pretenders
+
+# --- 90s alternative / funk-metal (likely bridges to the RATM/Audioslave core) ---
+Smashing Pumpkins
+Nine Inch Nails
+Jane's Addiction
+Red Hot Chili Peppers
+Faith No More
+Primus
+Tool
+
+# --- Nu-metal (the Korn cluster) ---
+Korn
+Deftones
+System of a Down
+Limp Bizkit
+Slipknot
+
+# --- Thrash metal (the Big Four + peers) ---
+Metallica
+Megadeth
+Slayer
+Anthrax
+Testament
+
+# --- Glam / hair metal (80s Sunset Strip; Velvet Revolver may bridge to grunge) ---
+Motley Crue
+Guns N' Roses
+Bon Jovi
+Def Leppard
+Poison
+Ratt
+Van Halen
+Dokken
+
+# --- Punk / new wave crossover ---
+Billy Idol
+Generation X
+Sex Pistols
+The Clash
+Ramones

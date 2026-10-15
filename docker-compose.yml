@@ -1,0 +1,22 @@
+# Local PostgreSQL for Six Degrees of Rock.
+# Credentials match the defaults in backend/db.py -- for local development only.
+services:
+  db:
+    image: postgres:18
+    container_name: sixdb
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: six
+      POSTGRES_DB: sixdegrees
+    ports:
+      - "5432:5432"
+    volumes:
+      - sixdb-data:/var/lib/postgresql
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres -d sixdegrees"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+
+volumes:
+  sixdb-data:

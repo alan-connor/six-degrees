@@ -1,0 +1,62 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  backend:
+    name: Backend (schema, seed, graph, API)
+    runs-on: ubuntu-latest
+    services:
+      postgres:
+        image: postgres:18
+        env:
+          POSTGRES_PASSWORD: six
+          POSTGRES_DB: sixdegrees
+        ports: ["5432:5432"]
+        options: >-
+          --health-cmd "pg_isready -U postgres"
+          --health-interval 5s --health-timeout 3s --health-retries 10
+    defaults:
+      run:
+        working-directory: backend
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r ../requirements.txt
+      - name: Compile
+        run: python -m compileall -q .
+      - name: Create schema and load seed
+        run: |
+          python setup/create_tables.py
+          python setup/load_seed.py
+      - name: Graph smoke test (Kurt Cobain -> Jimmy Page)
+        run: python graph.py
+      - name: API smoke test
+        run: |
+          python -m uvicorn api:app --port 8000 &
+          for i in $(seq 1 30); do curl -sf http://127.0.0.1:8000/ && break; sleep 1; done
+          curl -sf "http://127.0.0.1:8000/path?from=Kurt%20Cobain&to=Jimmy%20Page" | tee path.json
+          python -c "import json; d=json.load(open('path.json')); assert d['connected'] and d['degrees']==3, d"
+
+  frontend:
+    name: Frontend (lint, build)
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: frontend
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: frontend/package-lock.json
+      - run: npm ci
+      - run: npm run lint
+      - run: npm run build

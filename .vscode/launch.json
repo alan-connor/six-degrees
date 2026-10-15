@@ -1,0 +1,31 @@
+{
+  // F5 -> debug the FastAPI backend with breakpoints in api.py / graph.py / db.py.
+  // NOTE: no --reload here on purpose; the reloader spawns a subprocess and
+  // breakpoints stop binding. Use the "backend: uvicorn" task for hot-reload,
+  // and this config when you actually want to step through code.
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug backend (FastAPI)",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "uvicorn",
+      "args": ["api:app", "--host", "127.0.0.1", "--port", "8000"],
+      "cwd": "${workspaceFolder}/backend",
+      "python": "${workspaceFolder}/.venv/Scripts/python.exe",
+      "console": "integratedTerminal",
+      "justMyCode": false
+    },
+    {
+      "name": "Debug crawler (--limit 1)",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/backend/crawl.py",
+      "args": ["--limit", "1"],
+      "cwd": "${workspaceFolder}/backend",
+      "python": "${workspaceFolder}/.venv/Scripts/python.exe",
+      "console": "integratedTerminal",
+      "justMyCode": false
+    }
+  ]
+}
